@@ -26,3 +26,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.meet-the-team {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.5)), url(../images/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
