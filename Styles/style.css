@@ -5,36 +5,35 @@
 
 .slider-1 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.5)), url(../images/banner1.png);
+    rgba(0, 0, 0, 0.5)), url('../images/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
 }
 
 .slider-2 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.5)), url(../images/banner2.png);
+    rgba(0, 0, 0, 0.5)), url('../images/banner2.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-3 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.5)), url(../images/banner3.png);
+    rgba(0, 0, 0, 0.5)), url('../images/banner3.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .slider-4 {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.5)), url(../images/banner4.png);
+    rgba(0, 0, 0, 0.5)), url('../images/banner4.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .meet-the-team {
     background-image:linear-gradient(rgba(0, 0, 0, 0.4),
-    rgba(0, 0, 0, 0.5)), url(../images/banner1.png);
+    rgba(0, 0, 0, 0.5)), url('../images/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
