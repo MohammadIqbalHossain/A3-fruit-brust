@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    <header class="lg:px-36 md:px-36">
+    <header class="lg:px-36 md:px-36 font-lato">
 
         <!-- Navigation -->
         <div class="hidden md:block lg:block">
@@ -91,7 +91,7 @@
 
     <main class="px-5 md:px-36 lg:px-36">
         <!-- Banner section -->
-        <div class="carousel w-full mt-12">
+        <div class="relative carousel w-full mt-12 mb-12">
             <div id="slide1" class="carousel-item relative w-full">
                 <div
                     class="slider-1 py-10 lg:py-32 md:py-32 w-full flex flex-col justify-center items-center text-center space-y-6">
@@ -143,12 +143,31 @@
         </div>
 
         <!-- Fruits slider's fixed nav -->
-        <div>
-            <!-- I'll work on it later -->
+        <div class="hidden lg:block md:block">
+            <div
+                class="absolute bg-white top-[30rem] z-10 flex justify-center items-center gap-20 shadow-2xl mx-20 text-center rounded-xl ml-12">
+                <div class="p-4">
+                    <img src="./images/fruit4.png" alt="">
+                    <h3 class="font-lato font-bold">Strawberry</h3>
+                </div>
+                <div class="p-4">
+                    <img src="./images/fruit1.png" alt="">
+                    <h3 class="font-lato font-bold">Grape</h3>
+                </div>
+                 <div class="p-4">
+                    <img src="./images/fruit2.png" alt="">
+                    <h3 class="font-lato font-bold">Orange</h3>
+                </div>
+                <div class="p-4">
+                    <img src="./images/fruit3.png" alt="">
+                    <p class="font-lato font-bold">Mango</p>
+                </div>
+            </div>
         </div>
 
+
         <!-- Deal of the day section -->
-        <div class="deal-of-day mt-12 gap-16">
+        <div class="deal-of-day mt-16 gap-16">
             <div class="flex flex-col lg:flex-row md:flex-row justify-between">
                 <div class="flex-1 space-y-7">
                     <h1 class="text-4xl font-extralight font-lato ">
@@ -235,9 +254,9 @@
                 </div>
 
                 <div class="px-12 py-11 border text-center space-y-4 rounded-md shadow-md">
-                    <img class="mx-auto" src="./images/fruit6.png" alt="">
+                    <img class="mx-auto" src="./images/fruit1.png" alt="">
                     <h1 class="font-extrabold">12.90$ - 18.85$</h1>
-                    <p>Apples</p>
+                    <p>Grape</p>
                     <div class="rating rating-sm">
                         <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#F85559]" />
                         <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#F85559]" checked />
@@ -251,8 +270,8 @@
                     <!-- Modal -->
                     <dialog id="my_modal_6" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box space-y-4">
-                            <img class="mx-auto" src="./images/fruit6.png" alt="">
-                            <h3 class="font-bold text-lg">Apple</h3>
+                            <img class="mx-auto" src="./images/fruit1.png" alt="">
+                            <h3 class="font-bold text-lg">Grape</h3>
                             <p class="py-4">Press ESC key or click the button below to close</p>
 
                             <!-- Modal Ratings -->
@@ -276,9 +295,9 @@
                     </dialog>
                 </div>
                 <div class="px-12 py-11 border text-center space-y-4 rounded-md shadow-md">
-                    <img class="mx-auto" src="./images/fruit6.png" alt="">
+                    <img class="mx-auto" src="./images/fruit2.png" alt="">
                     <h1 class="font-extrabold">12.90$ - 18.85$</h1>
-                    <p>Apples</p>
+                    <p>Orange</p>
                     <div class="rating rating-sm">
                         <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#F85559]" />
                         <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#F85559]" checked />
@@ -292,8 +311,8 @@
                     <!-- Modal -->
                     <dialog id="my_modal_7" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box space-y-4">
-                            <img class="mx-auto" src="./images/fruit6.png" alt="">
-                            <h3 class="font-bold text-lg">Apple</h3>
+                            <img class="mx-auto" src="./images/fruit2.png" alt="">
+                            <h3 class="font-bold text-lg">Orange</h3>
                             <p class="py-4">Press ESC key or click the button below to close</p>
 
                             <!-- Modal Ratings -->
@@ -317,9 +336,9 @@
                     </dialog>
                 </div>
                 <div class="px-12 py-11 border text-center space-y-4 rounded-md shadow-md">
-                    <img class="mx-auto" src="./images/fruit6.png" alt="">
+                    <img class="mx-auto" src="./images/fruit3.png" alt="">
                     <h1 class="font-extrabold">12.90$ - 18.85$</h1>
-                    <p>Apples</p>
+                    <p>Mango</p>
                     <div class="rating rating-sm">
                         <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#F85559]" />
                         <input type="radio" name="rating-6" class="mask mask-star-2 bg-[#F85559]" checked />
@@ -333,8 +352,8 @@
                     <!-- Modal -->
                     <dialog id="my_modal_8" class="modal modal-bottom sm:modal-middle">
                         <div class="modal-box space-y-4">
-                            <img class="mx-auto" src="./images/fruit6.png" alt="">
-                            <h3 class="font-bold text-lg">Apple</h3>
+                            <img class="mx-auto" src="./images/fruit3.png" alt="">
+                            <h3 class="font-bold text-lg">Mango</h3>
                             <p class="py-4">Press ESC key or click the button below to close</p>
 
                             <!-- Modal Ratings -->
